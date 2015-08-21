@@ -1,0 +1,47 @@
+U.S. Direct Investment Statistics
+========================================================
+author: Student
+date: August 21, 2015
+transition:concave
+font-family: 'Helvetica'
+
+<div class="midcenter" style="margin-left:400px; margin-top:-100px;">
+<img src="bg.jpg"></img>
+</div>
+
+
+Data Types
+========================================================
+
+- Investment Positions
+- Financial Transactions
+- Income
+
+Data Details
+========================================================
+
+
+```{r, echo=F}
+dfw<-read.csv("dfw.csv")[-1]
+summary(dfw[])
+```
+
+
+
+Shiny App Advantages
+========================================================
+
+- Interactive
+- Searchable
+- Sortable
+
+For More Information
+========================================================
+
+- Data source: http://bea.gov/iTable/index_MNC.cfm
+- Shiny information: http://shiny.rstudio.com/
+- Coursera class: https://www.coursera.org/course/devdataprod
+
+<div class="midcenter" style="margin-left:400px; margin-top:-100px;">
+<img src="bg.jpg"></img>
+</div>
